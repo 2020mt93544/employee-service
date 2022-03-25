@@ -1,0 +1,11 @@
+server:
+  port: 9005
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://bits-mongo:Bits%40Mongo%2139%23@cluster0.buwrs.mongodb.net/?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+      database: employee
+
+departmentHost: ${DEPARTMENT_HOST:http://localhost:9010/department}
+salaryHost: ${SALARY_HOST:http://localhost:9020/salary}
